@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway";
+}
+
+.main-content {
+    margin: -0.7em;
+}
+
+.up-bar {
+    padding: 5em 0 13em 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.logo {
+    padding-left: 5em;
+    height: 5em;
+    width: 15em;
+    cursor: pointer;
+}
+
+.nav-bar {
+    text-decoration: none;
+    margin-right: 3em;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-bar ul li {
+    padding: 0 2em 0 2em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.file-content {
+    text-align: center;
+    background: hsl(217, 28%, 15%) url(images/bg-curvy-desktop.svg) bottom no-repeat;
+    background-size: 119%;
+}
+
+.intro-photo {
+    margin-bottom: 7em;
+}
+
+.intro-header {
+    font-size: 19px;
+    line-height: 275%;
+}
+
+.sub-intro-header {
+    font-size: 16px;
+    font-family: "Montserrat";
+    line-height: 150%;
+}
+
+.start-button button {
+    color: hsl(0, 0%, 100%);
+    padding: 1.3em;
+    width: 18em;
+    margin-top: 2em;
+    border: 0.1em;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 3.5em;
+    border-color: hsl(176, 68%, 64%);
+    border-style: solid;
+    margin-bottom: 15em;
+    cursor: pointer;
+    outline: none;
+}
+
+.features-content {
+    margin: 0em 18em 20em 18em;
+}
+
+.features-content ul {
+    background-color: tr;
+    text-align: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features-content ul li{
+    margin: 3.5em 8em 3.5em 8em;
+    font-size: 13px;
+}
+
+.features-content ul li img {
+    margin-bottom: 0.6em;
+}
+
+.features-content ul li:nth-child(2) img {
+    margin: -1em 0 0.8em 0;
+}
+
+.fake-heading {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.fake-paragraph {
+    color: rgb(212, 212, 212);
+    line-height: 175%;
+}
+
+.productive-content {
+    display: inline-flex;
+    margin-bottom: 20em;
+}
+
+.productive-image {
+    margin-left: 12.5em;
+}
+
+.productive-text {
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 15em;
+    font-size: 15px;
+    color: rgb(212, 212, 212);
+    font-family: "Montserrat";
+}
+
+.productive-text h2 {
+    font-family: "Raleway";
+    color: white;
+    font-size: 43px;
+    line-height: 125%;
+}
+
+.productive-text p {
+    line-height: 175%;
+}
+
+.productive-text a {
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    padding-bottom: 3px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: hsl(176, 68%, 64%);
+}
+
+.portfolios {
+    width: 80%;
+    align-items: center;
+    margin-left: 12.5em;
+}
+
+.portfolios p {
+    line-height: 175%;
+    font-family: "Montserrat";
+}
+
+.portfolios .profile {
+    background-color: hsl(219, 30%, 18%);
+}
+
+.portfolios ul {
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 20em;
+}
+
+.portfolios ul li {
+    background-color: hsl(219, 30%, 18%);
+    border-style: solid;
+    border-color: hsl(216, 53%, 9%);
+    border-width: 0em 1em 1em 0em;
+    padding: 2em;
+    margin: 0 2em 0 2em;
+}
+
+.portfolios ul li img {
+    height: 25px;
+    width: 25px;
+    border-radius: 10em;
+    margin-top: 1em;
+}
+
+.portfolios .profile span {
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.access {
+    left: 39em;
+    position: relative;
+    height: auto;
+    margin: 0;
+    width: 50%;
+    padding: 3em;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+}
+
+.access h1 {
+    font-size: 27px;
+    font-family: "Raleway";
+}
+
+.access p {
+    line-height: 175%;
+    margin: 0 11em 4em 11em;
+}
+
+.access-bottom {
+    display: inline-flex;
+    margin: 0 2em 0 2em;
+}
+
+.email-bar input[type=text] {
+    outline: none;
+    width: 110%;
+    padding: 15px;
+    margin-right: 30em;
+    border-style: solid;
+    border-radius: 10em;
+    background-color: white;
+    border-color: white;
+}
+
+.start-free-button button {
+    color: hsl(0, 0%, 100%);
+    padding: 1.3em;
+    margin-left: 8em;
+    width: 15em;
+    border: 0.1em;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 3.5em;
+    border-color: hsl(176, 68%, 64%);
+    border-style: solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.footer {
+    margin-top: 20em;
+    padding: 5em 0 1em 0;
+    background-color: hsl(216, 53%, 9%)
+}
+
+.nav-bar-2 {
+    margin-bottom: 3.5em;
+}
+
+.logo2 img {
+    margin: 0 0 2.5em 5.5em;
+}
+
+.footer ul {
+    margin-left: 2em;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    column-gap: 70px;
+}
+
+.location span {
+    display: flex;
+    font-size: 16px;
+    line-height: 150%;
+    width: 25em;
+    margin: -1.75em 0 0 3.5em;
+}
+
+.contact ul {
+    width: 13em;
+    display: inline-block;
+}
+
+.contact span {
+    display: flex;
+    line-height: 150%;
+    margin: -1.5em 0 0 2em;
+}
+
+.contact ul li {
+    margin-top: -1.7em;
+    padding: 1.5em 0 1.5em 0;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.nav ul {
+    width: 7em;
+    display: inline-block;
+}
+
+.nav ul li {
+    margin-top: -1.9em;
+    padding: 1.5em 0 1.5em 0;
+    font-family: "Montserrat";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-nav ul {
+    width: 8em;
+    display: inline-block;
+}
+
+.contact-nav ul li {
+    margin-top: -1.9em;
+    padding: 1.5em 0 1.5em 0;
+    font-family: "Montserrat";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social ul {
+    display: flex;
+    margin-right: 9em;
+}
+
+.social ul i {
+    margin: 0 -0.3em 0 -0.3em;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+
+   .logo img {
+       height: 60%;
+       width: 65%;
+   }
+
+   .nav-bar ul li {
+       font-size: 10.5px;
+   }
+
+   .intro-photo img {
+        height: 50%;
+        width: 50%;
+   }
+
+   .intro-header h1 {
+       font-size: 22px;
+   }
+
+   .sub-intro-header p {
+       font-size: 14px;
+   }
+
+   .features-content {
+       margin: 0 3.5em 10em 0;
+   }
+
+   .features-content ul {
+       display: inline-block;
+   }
+
+   .features-content ul li{
+       font-size: 13px;
+    }
+
+    .productive-content {
+        display: inline-block;
+        margin-bottom: 10em;
+    }
+
+    .productive-image img {
+        height: 100%;
+        width: 100%;
+        margin-left: -6em;
+        margin-bottom: 2em;
+    }
+
+    .productive-text {
+        width: 80%;
+    }
+
+    .portfolios {
+        margin-left: 4em;
+    }
+
+    .portfolios ul {
+        display: inline-block;
+        margin: 0em;
+    }
+
+    .portfolios ul li {
+        margin: 2em 0 2em 0;
+    }
+
+    .access {
+        margin-top: 10em;
+        margin-left: 2.5em;
+        width: 75%;
+    }
+
+    .access-bottom {
+        display: inline;
+    }
+
+    .email-bar input[type=text] {
+        width: 90%;
+        margin: 0 0 2em 0;
+    }
+
+    .access p {
+        margin: 0 0 4em 0;
+        font-size: 14px;
+    }
+
+    .start-free-button button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer ul {
+        display: inline-block;
+    }
+
+    .location {
+        margin-bottom: 2em;
+    }
+
+    .nav {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .social ul {
+        display: flex;
+        margin-top: 2em;
+    }
+
+    .social ul i {
+        padding: -0.5em;
+        margin-left: 0.15em;
+    }
+}   
